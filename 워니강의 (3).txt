@@ -1,0 +1,98 @@
+#class: 함수+변수 모아놓은거(빵틀)
+#object(인스턴스):클레스 써서 만든것(빵틀로 찍어낸거!!)
+#상속:공통된 클레스 있고 조금다른 클레스을 만들고싶을떄
+
+class person:
+    name="워니"
+    def say_Hello(self):
+        print("안녕 나는"+ self.name)   #self는 매개변수
+p=person()
+p.say_Hello()
+
+class person:
+    name="워니"
+    def say_Hello(self):
+        print("안녕 나는"+ self.name)
+wonie=person()
+mike=person()
+wonie.say_Hello()
+mike.say_Hello()
+
+class person:
+    def __init__(self,name):
+        self.name=name#initialize(초기화)의약자 self에서 첫인자받고 neme에서 새로쓸인자 받아
+    def say_Hello(self):
+        print("안녕 나는"+ self.name)
+wonie=person("워니")
+mike=person("마이클")
+wonie.say_Hello()
+mike.say_Hello()
+
+class person:
+    def __init__(self,name):
+        self.name=name#initialize(초기화)의약자 self에서 첫인자받고 neme에서 새로쓸인자 받아
+    def say_Hello(self, to_name):
+        print("안녕 나는"+to_name+ " 나는"+ self.name)
+wonie=person("워니")
+mike=person("마이클")
+wonie.say_Hello("철수")
+mike.say_Hello("미수")
+
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age#initialize(초기화)의약자 self에서 첫인자받고 neme에서 새로쓸인자 받아
+    def say_Hello(self, to_name):
+        print("안녕 나는"+to_name+ " 나는"+ self.name)
+    def introduce(self):
+        print("내 이름은 "+ self.name+" 그리고 나는"+str(self.age)+"살이야")
+wonie=person("워니",25)
+wonie.introduce()
+
+
+#상속:공통된 클레스 있고 조금다른 클레스을 만들고싶을떄
+
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age#initialize(초기화)의약자 self에서 첫인자받고 neme에서 새로쓸인자 받아
+    def say_Hello(self, to_name):
+        print("안녕 나는"+to_name+ " 나는"+ self.name)
+    def introduce(self):
+        print("내 이름은 "+ self.name+" 그리고 나는"+str(self.age)+"살이야")
+
+class police(person):  #person에서 정의된 함수들이 police에 그대로 상속!!
+    def arrest(self,to_arrest):
+        print("넌 체포됐다"+to_arrest)
+class programer(person):
+    def program(selfself,to_program):
+        print("다음엔 뭘 만들지? 아 이걸 만들어야겠다"+to_program)
+wonie= person("워니",20)
+jenny= police("제니",21)
+mike= programer("마이클",22)
+wonie.introduce()
+jenny.arrest("ㅉㅉ")
+mike.program("이메일클라이언트")
+
+#위에랑 차이없음
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age#initialize(초기화)의약자 self에서 첫인자받고 neme에서 새로쓸인자 받아
+    def say_Hello(self, to_name):
+        print("안녕 나는"+to_name+ " 나는"+ self.name)
+    def introduce(self):
+        print("내 이름은 "+ self.name+" 그리고 나는"+str(self.age)+"살이야")
+
+class police(person):
+    def arrest(self,to_arrest):
+        print("넌 체포됐다"+to_arrest)
+class thief (person):
+    def thief(selfself,to_thief):
+        print("도망가겠따"+to_thief)
+wonie= person("워니",20)
+jenny= police("제니",21)
+mike= thief("마이클","아")
+wonie.introduce()
+jenny.arrest("ㅉㅉ")
+mike.thief("하하")
