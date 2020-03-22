@@ -60,4 +60,9 @@ ___
 ＼*literal asterisks＼*  
 *literal asterisks*  
 __＼*＼*Text＼*＼*__  
-_＼_Tom＼__
+_＼_Tom＼
+
+GitHub supports emoji! 
+:+1: :sparkles: :camel: :tada: 
+:rocket: :metal: :octocat:
+:mask: :triumph:
