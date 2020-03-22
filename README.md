@@ -1,7 +1,6 @@
 
 
-<a href="#"><img src="https://github.com/useok0569/test10/picture/paris2.jpg" width="400px" alt="sample image"></a>
-
+![ex](/picture/paris2.jpg)
 # size
 ## size
 ### size
