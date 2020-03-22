@@ -1,6 +1,3 @@
-.. image:: https://travis-ci.org/joowani/binarytree.svg?branch=master
-    :target: https://travis-ci.org/joowani/binarytree
-    :alt: Build Status
 
 ![ex](/picture/paris2.jpg)
 # size
