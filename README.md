@@ -66,3 +66,5 @@ GitHub supports emoji!
 :+1: :sparkles: :camel: :tada: 
 :rocket: :metal: :octocat:
 :mask: :triumph:
+
+https://img.shields.io/badge/license-help-green
