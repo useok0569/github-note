@@ -1,6 +1,6 @@
 
 
-<a href="#"><img src="https://github.com/useok0569/test10/images/markdown_syntax.jpg" width="400px" alt="sample image"></a>
+<a href="#"><img src="https://github.com/useok0569/test10/picture/paris2.jpg" width="400px" alt="sample image"></a>
 
 # size
 ## size
