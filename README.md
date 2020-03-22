@@ -8,7 +8,7 @@
 
 * Test1
 * Test2
-  * test3
+ * test3
   
 
 1. test1
