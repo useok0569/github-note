@@ -1,4 +1,4 @@
-![Github logo](/picture/brother.jpg)
+![ex](/picture/brother.jpg)
 
 # size
 ## size
