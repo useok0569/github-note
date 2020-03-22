@@ -18,4 +18,4 @@ Unordered
 빈 줄이 없으면 자동으로 앞의 문장 뒤에 붙습니다.(Space Bar를 두 번 이상 눌러 띄어쓰기를 하면..)   
 위 문장에서 두 칸의 공백을 두어 강제 개행할 수 있습니다.
 
-<a href="#"><img src="https://github.com/useok0569/images/markdown_syntax.jfit" width="400px" alt="sample image"></a>
+[GitHub](http://github.com "깃허브")
