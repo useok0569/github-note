@@ -8,7 +8,7 @@
 
 * Test1
 * Test2
- * test3
+  * test3
   
 
 1. test1
@@ -33,10 +33,10 @@ what?
 > in the future than in the past.
 
 *This text will be italic* 
-_This will also be italic_ 
+ 
 
 **This text will be bold** 
-__This will also be bold__ 
+ 
 
 *You **can** combine them*
 
