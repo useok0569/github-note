@@ -20,7 +20,9 @@ Unordered
 
 [GitHub](http://github.com/useok0569 "깃허브")
 
-''' python 
-def go():
-    print("hello")
-'''
+
+```javascript 
+function test() { 
+ console.log("hello world!"); 
+} 
+```
