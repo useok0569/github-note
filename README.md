@@ -18,4 +18,4 @@ Unordered
 빈 줄이 없으면 자동으로 앞의 문장 뒤에 붙습니다.(Space Bar를 두 번 이상 눌러 띄어쓰기를 하면..)   
 위 문장에서 두 칸의 공백을 두어 강제 개행할 수 있습니다.
 
-[naver](http:daum.com)
+[naver](http://daum.com "daum")
