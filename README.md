@@ -39,9 +39,9 @@ what?
  
 
 *You **can** combine them*
-
+//--|--: 최소두개
 First Header | Second Header 
---|--//최소두개
+--|--
 Content cell 1 | Content cell 2 
 Content column 1 | Content column 2
 
