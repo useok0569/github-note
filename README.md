@@ -43,8 +43,8 @@ what?
 //--|--: 최소두개
 First Header | Second Header 
 --|--
-Content cell 1 | Content cell 2 
-Content column 1 | Content column 2
+Content cell 1 | Content cell 2 | Content cell 3
+Content column 1 | Content column 2| Content column 3
 
 - [x] this is a complete item 
 - [ ] this is an incomplete item 
